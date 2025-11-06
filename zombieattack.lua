@@ -3,7 +3,7 @@
 local Rayfield = loadstring(game:HttpGet("https://sirius.menu/rayfield"))()
 
 local Window = Rayfield:CreateWindow({
-    Name = "Zombie Attack • HikmatXD.",
+    Name = "Zombie Attack V.2 • HikmatXD.",
     LoadingTitle = "Zombie Attack MattTzy.",
     LoadingSubtitle = "by HikmatXD.",
     Theme = "Default",
@@ -90,22 +90,6 @@ PlayEd:CreateToggle({
     CurrentValue = false,
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/MattVanz/zombieattack/refs/heads/main/powerup.lua"))()
-     end
-})
-
-PlayEd:CreateToggle({
-    Name = "anti afk",
-    CurrentValue = false,
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/MattVanz/zombieattack/refs/heads/main/antiafk.lua"))()
-     end
-})
-
-PlayEd:CreateToggle({
-    Name = "hitbox [not recomended]",
-    CurrentValue = false,
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/MattVanz/zombieattack/refs/heads/main/hitbox.lua"))()
      end
 })
 
